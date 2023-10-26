@@ -1,0 +1,13 @@
+<h1>
+    Authentification
+</h1>
+<form action="">
+    <label for="">Donner le login</label>
+    <input type="text" name="" id="lg" #lg>
+    <br>
+    <label for="">Donner le mot de passe</label>
+    <input type="password" name="" id="mdp" #mdp>
+    <button (click)="seConnecter(lg.value, mdp.value)">
+        S'authentifier
+    </button>
+</form>
